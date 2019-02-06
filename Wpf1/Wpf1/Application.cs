@@ -14,7 +14,15 @@ namespace Wpf1
 
         public int ZipCode { get; set; }
 
+        public Application()
+
+        {
+            Name = "";
+        }
+            
+            
+
     }
 
-    public Application (string name, string address, int zipCode); 
+    
 }
