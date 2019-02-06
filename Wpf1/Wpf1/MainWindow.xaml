@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:Wpf1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid OpacityMask="#FF3939BD" Background="#FF36D6CC">
         <Label Content="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,151,0,0" Height="54" Width="80" RenderTransformOrigin="0.301,1.217"/>
-        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="101" Margin="28,69,0,0"/>
+        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="101" Margin="28,69,0,0" BorderBrush="#FFE01212"/>
         <Label Content="Zip Code" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.497,4.029" Height="69" Width="123" Margin="28,234,0,0"/>
         <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="388,288,0,0"/>
-        <ListBox HorizontalAlignment="Left" Height="117" VerticalAlignment="Top" Width="169" Margin="306,88,0,0"/>
+        <ListBox HorizontalAlignment="Left" Height="117" VerticalAlignment="Top" Width="169" Margin="306,88,0,0" SelectionChanged="ListBox_SelectionChanged"/>
 
     </Grid>
 </Window>

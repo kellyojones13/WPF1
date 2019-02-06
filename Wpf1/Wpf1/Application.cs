@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Wpf1
 {
-    class Application
+    class Form
     {
         public string Name { get; set; }
 
@@ -14,13 +14,17 @@ namespace Wpf1
 
         public int ZipCode { get; set; }
 
-        public Application()
+        public Form()
 
         {
             Name = "";
+            Address = "";
+            ZipCode = 0;
         }
-            
-            
+
+        public Form(string Name, string Address, int zipCode)
+        {
+        }
 
     }
 
